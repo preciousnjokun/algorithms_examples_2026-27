@@ -11,7 +11,11 @@ public class ArrayUtils {
         Display the value at that position
     */
 
-
+    /**
+     * Displays every element in an integer array and its position.
+     *
+     * @param numbers the integer array to display
+     */
     public static void displayArray(int[] numbers) {
 
         for (int i = 0; i < numbers.length; i++) {
